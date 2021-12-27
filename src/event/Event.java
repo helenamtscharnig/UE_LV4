@@ -1,3 +1,5 @@
+package event;
+
 import java.util.ArrayList;
 
 public class Event extends ArrayList<Event> {
@@ -37,7 +39,7 @@ public class Event extends ArrayList<Event> {
 
     @Override
     public String toString() {
-        return "Event{" +
+        return "event.Event{" +
                 "title='" + title + '\'' +
                 ", ort='" + ort + '\'' +
                 ", eintrittspreis=" + eintrittspreis +

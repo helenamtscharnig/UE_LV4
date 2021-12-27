@@ -1,4 +1,7 @@
-import java.lang.reflect.Array;
+package event;
+
+import event.Event;
+
 import java.util.ArrayList;
 
 public class EventDemo {
